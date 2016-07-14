@@ -426,11 +426,6 @@ h4 {
   width: 100%;
   height: 180px; }
 
-#tree_svg {
-  width: 48%;
-  height: 48%;
-  float: right; }
-
 #number_container {
   float: right; }
 
@@ -442,7 +437,8 @@ a:link {
   border-color: #3B4E32;
   border-style: solid;
   color: #e97f02;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  border-radius: 0; }
 
 #nav_styles {
   font-family: 'raleway'; }
@@ -450,10 +446,6 @@ a:link {
 .nav.navbar-nav li a, .navbar-default .navbar-brand {
   color: #3B4E32; }
 
-/*
-.navbar-toggle {
-    z-index:3;
-} */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
@@ -461,10 +453,29 @@ a:link {
   background: #e97f02; }
 
 .jumbotron.container {
-  text-align: center; }
+  text-align: center;
+  color: #3B4E32; }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #F8F8FF; }
+
+#services_header {
+  border-style: solid;
+  background-color: #a5d296;
+  border-color: #3B4E32;
+  text-align: center; }
+
+.featurette-heading {
+  color: #e97f02; }
+
+.row.featurette {
+  background-color: #EEE; }
+
+#mushroom, #weeds, #planting, #cinch, #worm, #grass, #ant {
+  height: 10vw; }
+
+.footer {
+  background-color: #a5d296; }
 
 /* CUSTOM MEDIA QUERIES */
 /* Larger than mobile */
