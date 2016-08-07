@@ -363,19 +363,19 @@ textarea {
 /*# sourceMappingURL=normalize.css.map */
 @font-face {
   font-family: 'raleway-bold';
-  src: local("Raleway-Bold"), url("fonts/raleway/Raleway-Bold.ttf") format("truetype"); }
+  src: local("Raleway-Bold"), url("fonts/Raleway-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: 'raleway';
-  src: local("Raleway"), url("fonts/raleway/Raleway-Regular.ttf") format("truetype"); }
+  src: local("Raleway"), url("fonts/Raleway-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'nobile';
-  src: local("Nobile-Regular"), url("fonts/nobile/Nobile-Regular.ttf") format("truetype"); }
+  src: local("Nobile-Regular"), url("fonts/Nobile-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: 'sofia';
-  src: local("Sofia-Regular"), url("fonts/sofia/Sofia-Regular.otf") format("opentype"); }
+  src: local("Sofia-Regular"), url("fonts/Sofia-Regular.otf") format("opentype"); }
 @font-face {
   font-family: 'eraser';
-  src: local("EraserRegular"), url("fonts/Eraser/EraserRegular.ttf") format("truetype"); }
+  src: local("EraserRegular"), url("fonts/EraserRegular.ttf") format("truetype"); }
 .container-fluid {
   padding: 0; }
 
@@ -423,7 +423,8 @@ h1 {
 
 h4 {
   font-family: 'eraser';
-  color: #e97f02; }
+  color: #e97f02;
+  text-align: center; }
 
 #grass_image {
   width: 100%;
@@ -480,6 +481,9 @@ a:link {
 .footer {
   background-color: #a5d296; }
 
+.date_styles {
+  background-color: #a5d296; }
+
 /* CUSTOM MEDIA QUERIES */
 /* Larger than mobile */
 @media (min-width: 400px) {
@@ -500,7 +504,10 @@ a:link {
     font-size: 3vw; }
 
   #grass_image {
-    height: 200px; } }
+    height: 200px; }
+
+  .featurette-heading {
+    width: 100%; } }
 /* Larger than tablet */
 @media (min-width: 750px) {
   h1 {
