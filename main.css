@@ -405,13 +405,21 @@ h1 {
   top: 30px; }
 
 h2 {
-  font-family: 'sofia';
+  font-family: 'eraser';
   height: 50%;
   text-align: center;
   font-size: 7vw;
-  color: #F8F8FF;
+  color: #e97f02;
   position: relative;
   bottom: 10px; }
+
+#adjust_subtitle {
+  font-family: 'sofia';
+  color: #F8F8FF; }
+
+.blog_h4 {
+  font-family: 'eraser';
+  color: #e97f02; }
 
 h3 {
   color: #3B4E32;
